@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  puppeteer-service:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - NODE_ENV=production
+    command: npm start

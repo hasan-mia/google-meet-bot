@@ -1,0 +1,17 @@
+{
+  "name": "google-meet-bot",
+  "version": "1.0.0",
+  "description": "A simple google meet bot using Puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "express": "^4.19.2",
+    "os": "^0.1.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
